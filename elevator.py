@@ -1,4 +1,9 @@
-#Converting Elevator Number
-inp = input('Europe Floor?')
-usf = int(inp) + 1
-print('US Floor', usf )
+# Python Assignment
+
+# 1. Print Hello World
+
+print("Hello World, This is Mishan Regmi 1841030")
+print("This is the second line.")
+
+
+#
