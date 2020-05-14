@@ -1,10 +1,8 @@
-
 import random
 import string
 
 print ("Python")
 print ("Assignment 2")
-
 print ('Task 3\n')
 print ("Name Place Animal Things Game\n")
 
@@ -25,7 +23,6 @@ for i in range(1, n+1):
     lst.append(ele) # adding the element 
 
 print("The players list is:", lst) 
-
 
 def randomString(stringLength=1):
     letters = string.ascii_lowercase

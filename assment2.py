@@ -31,16 +31,13 @@ stp = myString3.strip()
 print(stp) # Remove the white space from the string
 
 print("\nTask 2")
-
 print("\nIndex Operator")
-
 result = myString.index('to Python')
 print("Substring 'to Python' is in:", result, "position.")
 
 print("\nLogical Operator")
 str1 = "Python"
 str2 = "Programming"
-
 if str1 == "Python" or str2 == "Prog" :
     print("One Condition Match")
 
@@ -48,11 +45,10 @@ if str1 == "Python" and str2 == "Prog" :
     print("Both Condition Match")
 
 print("\nMembership Operator")
-
 if "Welcome" in myString:
-     print("(Welcome) found in myString")
+    print("(Welcome) found in myString")
 if "Mishan" not in myString:
-     print("(Mishan) not found in myString")
+    print("(Mishan) not found in myString")
 
 print("\nIdentity Operator")
 print(type(myString))
