@@ -2,9 +2,7 @@
 #Given string is “Emma is good developer. Emma is a writer”
 
 string = "Emma is good developer. Emma is a writer"
-
 string_split = string.split(" ")
-
 count = 0
 
 for i in string_split:
@@ -12,3 +10,11 @@ for i in string_split:
   count += 1
 
 print("Emma appeared", count ,"times") 
+
+'''
+OR
+
+sampleStr = "Emma is good developer. Emma is a writer"
+cnt = sampleStr.count("Emma")
+print(cnt)
+'''
