@@ -1,4 +1,4 @@
-'''
+
 #Unique pair of elements
 my_sets = {1,2,3,4,5}
 print(my_sets)
@@ -29,8 +29,6 @@ print(mySet2) #display only unique element
 
 #Clearing Set
 print(mySet2.clear()) # prints -> None
-
-'''
 
 my_set = {1,2,3,4,5}
 ur_set = {4,5,6,7,8,9}
