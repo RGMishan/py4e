@@ -4,6 +4,7 @@
 # ^ Begin with
 # . Any Character after that
 # \S until there is white space chatacter
+# "\any text" means start with
 # + one or more character greedy
 # ? dont be greedy 
 import re
@@ -20,5 +21,5 @@ o = re.findall('^F.+:',x)
 # any character one or more until you found the last ':' symbol (LAST SYMBOL)
 print(o)
 
-p = re.findall('^F.+?:',x)  # This code is withput being greedy
+p = re.findall('^F.+?:',x)  # This code is without being greedy with ? 
 print(p)
