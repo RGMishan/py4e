@@ -11,3 +11,4 @@ for row in lines[1:]:
     vals = row.strip().split(',')
     if vals[2] != '':
        print("{}:    {};     {}".format(vals[0],vals[1],vals[2]))
+
