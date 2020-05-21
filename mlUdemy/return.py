@@ -3,6 +3,7 @@
 #1st Way
 def sum(num1,num2):
  return num1 + num2
+ print('Hello')  #Return function dont allow other code to execute
 
 total = sum(10,5) #function return here
 print("Total 1 is ",sum(4,total)) # then we use the total
