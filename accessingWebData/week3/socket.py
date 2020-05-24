@@ -4,7 +4,7 @@ mysock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #connection with interenet without linking just a doorway
 mysock.connect( ('data.pr4e.org', 80) ) 
 #data.pr4e.org is host and 80 is port and we try connecting
-cmd = 'GET http://data.pr4e.org/romeo.txt HTTP/1.0\n\n'.encode()
+cmd = 'GET http://data.pr4e.org/intro-short.txt HTTP/1.0\n\n'.encode()
 #server does receive first and client do send first 
 # the above code is preparing to send the request
 mysock.send(cmd) # sending the above request
