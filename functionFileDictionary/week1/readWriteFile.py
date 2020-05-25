@@ -34,5 +34,5 @@ with open(file, 'r') as re:
     for line in re:
         do something with each line
 
-WE CAN DO THIS WITH WRITE ALSO
+WE CAN DO THI WITH WRITE ALSO
 '''
